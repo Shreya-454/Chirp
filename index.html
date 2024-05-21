@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chirp</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -28,10 +29,10 @@
 
 <body>
     <section class=" min-h-screen bg-headbg flex flex-col">
-        <div class=" max-w-[1144px] mx-auto pt-[51px] container px-3">
+        <div class=" max-w-[1144px] mx-auto pt-[51px] max-md:pt-8 container px-3">
             <nav class=" flex justify-between">
-                    <img src="./assets/images/svg/logo.svg" alt="logo" class="cursor-pointer">
-            <button  class=" font-phudu text-[#00434F] text-xl font-semibold h-[44px] flex gap-2 items-center bg-[#6ACD7A] py-2.5 pl-8  pr-5 rounded-full">
+                    <img src="./assets/images/svg/logo.svg" alt="logo" class="cursor-pointer max-md:w-[100px]">
+            <button class=" after:absolute after:h-full after:bg-[#006E2C] relative after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0 overflow-hidden z-[1] after:z-[-1] text-[#00434F] after:duration-300 duration-300 hover:text-white text-xl font-semibold h-[44px] flex gap-2 items-center bg-[#6ACD7A] py-2.5 pl-8  pr-5 rounded-full">
                 Coming soon
              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22.5878 12.8019L15.4114 15.4114L12.8019 22.5878C12.741 22.752 12.6313 22.8935 12.4876 22.9935C12.3438 23.0935 12.1729 23.1471 11.9979 23.1471C11.8228 23.1471 11.6519 23.0935 11.5082 22.9935C11.3644 22.8935 11.2547 22.752 11.1938 22.5878L8.58866 15.4114L1.41217 12.8019C1.24804 12.741 1.10648 12.6313 1.00651 12.4876C0.906548 12.3438 0.852966 12.1729 0.852966 11.9979C0.852966 11.8228 0.906548 11.6519 1.00651 11.5082C1.10648 11.3644 1.24804 11.2547 1.41217 11.1938L8.58866 8.58866L11.1981 1.41217C11.259 1.24804 11.3687 1.10648 11.5125 1.00651C11.6562 0.906548 11.8271 0.852966 12.0022 0.852966C12.1772 0.852966 12.3481 0.906548 12.4919 1.00651C12.6356 1.10648 12.7453 1.24804 12.8062 1.41217L15.4156 8.58866L22.5921 11.1981C22.7547 11.2603 22.8945 11.3704 22.993 11.5139C23.0915 11.6574 23.144 11.8275 23.1435 12.0015C23.143 12.1755 23.0896 12.3453 22.9904 12.4883C22.8911 12.6312 22.7507 12.7406 22.5878 12.8019Z" fill="#E5F6EC"/>
@@ -52,11 +53,11 @@
                 Sales
               </h1>
               <img src="./assets/images/svg/Ai.svg" alt="ai" class="pb-4 max-lg:h-[100px] max-sm:h-[80px]">
-              <button class=" uppercase text-xl leading-[100%] text-[#00434F] font-phudu font-semibold text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer mb-4 max-sm:hidden">
+              <button class=" uppercase after:bg-[#00434F] after:absolute relative after:h-full after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0  overflow-hidden z-[1] after:z-[-1] duration-300 after:duration-300 group hover:text-white leading-[100%] text-[#00434F] font-phudu font-semibold text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer mb-4 max-sm:hidden">
                 subscribe for more
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="24" width="24" height="24" rx="12" transform="rotate(90 24 0)" fill="#00434F"/>
-                    <path d="M11.5433 18.9147C11.7955 19.1669 12.2045 19.1669 12.4567 18.9147L16.5665 14.8048C16.8187 14.5526 16.8187 14.1437 16.5665 13.8915C16.3143 13.6393 15.9054 13.6393 15.6532 13.8915L12 17.5448L8.34677 13.8915C8.09456 13.6393 7.68566 13.6393 7.43346 13.8915C7.18125 14.1437 7.18125 14.5526 7.43346 14.8048L11.5433 18.9147ZM11.3542 5.54193L11.3542 18.4581L12.6458 18.4581L12.6458 5.54193L11.3542 5.54193Z" fill="#FFCA4C"/>
+                    <rect x="24" width="24" height="24" rx="12" transform="rotate(90 24 0)" fill="#00434F" class="group-hover:fill-white duration-300"/>
+                    <path d="M11.5433 18.9147C11.7955 19.1669 12.2045 19.1669 12.4567 18.9147L16.5665 14.8048C16.8187 14.5526 16.8187 14.1437 16.5665 13.8915C16.3143 13.6393 15.9054 13.6393 15.6532 13.8915L12 17.5448L8.34677 13.8915C8.09456 13.6393 7.68566 13.6393 7.43346 13.8915C7.18125 14.1437 7.18125 14.5526 7.43346 14.8048L11.5433 18.9147ZM11.3542 5.54193L11.3542 18.4581L12.6458 18.4581L12.6458 5.54193L11.3542 5.54193Z" fill="#FFCA4C" class="group-hover:fill-[#00434F] duration-300"/>
                     </svg>                    
               </button>
             </div>
@@ -66,11 +67,11 @@
                                   CO-PILOT</h1>
                       </div>
                       <p class=" font-poppins font-normal text-lg max-sm:text-base leading-[24px]  max-sm:leading-[22px] text-[#494949]  sm:hidden py-8 pr-16 ">Supercharge your conversion rates and <span class=" font-semibold text-[#005F26]">save up to 34%</span> of your sales rep's time, by automating mundane tasks.</p>
-                      <button class=" uppercase text-xl leading-[100%] text-[#00434F] font-phudu font-semibold text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer mb-4 sm:hidden">
+                      <button class=" uppercase text-xl leading-[100%] text-[#00434F] font-phudu font-semibold after:bg-[#00434F] after:absolute relative after:h-full after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0  overflow-hidden z-[1] after:z-[-1] duration-300 after:duration-300 group hover:text-white text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer mb-4 sm:hidden">
                         subscribe for more
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="24" width="24" height="24" rx="12" transform="rotate(90 24 0)" fill="#00434F"/>
-                            <path d="M11.5433 18.9147C11.7955 19.1669 12.2045 19.1669 12.4567 18.9147L16.5665 14.8048C16.8187 14.5526 16.8187 14.1437 16.5665 13.8915C16.3143 13.6393 15.9054 13.6393 15.6532 13.8915L12 17.5448L8.34677 13.8915C8.09456 13.6393 7.68566 13.6393 7.43346 13.8915C7.18125 14.1437 7.18125 14.5526 7.43346 14.8048L11.5433 18.9147ZM11.3542 5.54193L11.3542 18.4581L12.6458 18.4581L12.6458 5.54193L11.3542 5.54193Z" fill="#FFCA4C"/>
+                            <rect x="24" width="24" height="24" rx="12" transform="rotate(90 24 0)" fill="#00434F" class=" group-hover:fill-white duration-300"/>
+                            <path d="M11.5433 18.9147C11.7955 19.1669 12.2045 19.1669 12.4567 18.9147L16.5665 14.8048C16.8187 14.5526 16.8187 14.1437 16.5665 13.8915C16.3143 13.6393 15.9054 13.6393 15.6532 13.8915L12 17.5448L8.34677 13.8915C8.09456 13.6393 7.68566 13.6393 7.43346 13.8915C7.18125 14.1437 7.18125 14.5526 7.43346 14.8048L11.5433 18.9147ZM11.3542 5.54193L11.3542 18.4581L12.6458 18.4581L12.6458 5.54193L11.3542 5.54193Z" fill="#FFCA4C" class=" group-hover:fill-[#00434F] duration-300"/>
                             </svg>                    
                       </button>
 
@@ -79,50 +80,50 @@
         </div>
     </section>
     <section class="bg-white">
-        <div class=" container px-8 mx-auto max-w-[1440px]">
+        <div class=" container px-8 mx-auto max-w-[1440px] max-md:px-6">
 
     <div class="flex-row flex flex-wrap -mx-3">
-<div class="lg:w-1/2 w-full px-3 flex justify-center">
-<div class="w-full bg-[#E5F6EC] rounded-[32px] px-[110px] pt-[127px] pb-[138px] max-w-[676px] ">
-<h3 class=" uppercase font-phudu text-5xl leading-[100%] text-center font-bold text-[#005F26] pb-10">
+<div class="lg:w-1/2 w-full px-3 flex justify-center max-lg:mb-7">
+<div class="w-full bg-[#E5F6EC] rounded-[32px] xl:px-[110px] max-md:py-12 max-lg:px-[110px] max-md:px-6 pt-[127px] pb-[138px] max-w-[676px] ">
+<h3 class=" uppercase font-phudu text-5xl max-md:text-[32px] leading-[100%] text-center font-bold text-[#005F26] pb-10">
     subscribe for more
 </h3>
 <form class="mb-10">
-    <div class="bg-white rounded-full py-4 px-6 border-[#6ACD7A] border border-solid focus:border-[#005F26] mb-5">
-        <label for="name" class=" text-base leading-[22px] font-semibold font-poppins text-[#494949]">Your Name</label>
+    <div class="bg-white rounded-full flex py-4 px-6 border-[#6ACD7A] border border-solid focus:border-[#005F26] mb-5 w-full">
+        <label for="name" class=" text-base text-nowrap leading-[22px] font-semibold font-poppins text-[#494949]">Your Name</label>
         <input type="text" id="name" class=" text-base leading-[22px] font-poppins font-normal text-[#111111] focus:border-none group focus:outline-none">
     </div>
-    <div class="bg-white rounded-full py-4 px-6 border-[#6ACD7A] border border-solid focus:border-[#005F26] mb-5">
-        <label for="email" class=" text-base leading-[22px] font-semibold font-poppins text-[#494949]">Your Email</label>
+    <div class="bg-white rounded-full flex py-4 px-6 border-[#6ACD7A] border border-solid focus:border-[#005F26] mb-5 w-full">
+        <label for="email" class=" text-base text-nowrap leading-[22px] font-semibold font-poppins text-[#494949]">Your Email</label>
         <input type="email" id="email" class=" text-base leading-[22px] font-poppins font-normal text-[#111111] focus:border-none group focus:outline-none">
     </div>
 </form>
 <div class="flex justify-between">
-<p class=" text-sm font-poppins text-[#494949] leading-[143%]">Make your sales teams superhuman.<span class="block">Launching soon. Sign up for updates.</span></p>
-<button class=" font-phudu text-[#00434F text-xl leading-[100%] font-semibold text-center bg-[#FFCA4C] py-2.5 px-8 rounded-full">Submit</button>
+<p class=" text-sm font-poppins text-[#494949] leading-[143%] max-w-[292px] max-md:max-w-[184px]">Make your sales teams superhuman.Launching soon. Sign up for updates.</p>
+<button class=" font-phudu text-[#00434F] text-xl leading-[100%] font-semibold text-center bg-[#FFCA4C] py-2.5 px-8 rounded-full">Submit</button>
 </div>
 </div>
     </div>
     <div class="lg:w-1/2 w-full px-3 flex justify-center">
-<div class="w-full h-full rounded-[32px] bg-cardbg pt-[39px] px-8 relative max-w-[676px]" >
-<div class="bg-[#6DC8D9] max-w-[571px] p-[39px_50px_46px_55px] rounded-full -translate-x-[14%] ">
-    <h2 class="uppercase text-[#E8F6F9] text-[80px] leading-[100%] text-center font-phudu">Soar quickly</h2>
+<div class="w-full h-full rounded-[32px] bg-cardbg pt-[39px] px-8 relative max-w-[676px] z-[1] pb-[45px] max-md:pb-[23px]" >
+<div class="bg-[#6DC8D9] max-w-[571px] p-[39px_50px_46px_55px] rounded-full -translate-x-[14%] max-md:p-[18px_0px_24px_0px] max-md:max-w-[333px] ">
+    <h2 class="uppercase text-[#E8F6F9] max-lg:text-[80px] max-md:text-5xl lg:text-5xl xl:text-[80px] leading-[100%] text-center font-phudu" >Soar quickly</h2>
 </div>
-<img src="./assets/images/svg/shape1.svg" alt="shape" class="absolute right-0 bottom-[20%]">
+<img src="./assets/images/svg/shape1.svg" alt="shape" class="absolute right-0 bottom-[20%] z-[-1] max-md:w-[82px]">
 <div class=" w-full flex justify-end">
-<div class="bg-white-gradient backdrop-opacity-5 backdrop-blur-[100px] px-14 pt-10 pb-12 rounded-full border-gradient after:rounded-full -translate-y-[15%]">
-    <h2 class="uppercase text-[80px] leading-[100%] text-center font-phudu text-[#E5F6EC]">with our</h2>
+<div class="bg-white-gradient backdrop-opacity-5 backdrop-blur-[100px] px-14 pt-10 pb-12 max-md:p-[19px_25px_23px_26px] rounded-full border-gradient after:rounded-full -translate-y-[15%]">
+    <h2 class="uppercase  lg:text-5xl max-md:text-5xl max-lg:text-[80px] xl:text-[80px] leading-[100%] text-center font-phudu text-[#E5F6EC]">with our</h2>
 </div>
 </div>
-<div class=" flex bg-[#FFCA4C] max-w-[500px] p-[38px_65px_47px_60px] justify-between rounded-full">
-<img src="./assets/images/svg/smallAi.svg" alt="ai">
-<h2 class="uppercase text-[80px] leading-[100%] font-phudu font-bold text-[#FFF6E2] " >co-pilot</h2>
+<div class=" flex bg-[#FFCA4C] max-w-[500px] max-md:max-w-[286px] max-md:p-[19px_29px_23px_32px] max-md:w-full lg:items-center p-[38px_55px_47px_50px] max-md:gap-1 max-md:items-center gap-3 lg:gap-8 rounded-full">
+<img src="./assets/images/svg/smallAi.svg" alt="ai" class="max-md:h-[35px] lg:h-[35px]">
+<h2 class="uppercase  lg:text-5xl  max-lg:text-[80px] xl:text-[80px] max-md:text-5xl leading-[100%] font-phudu font-bold text-[#FFF6E2] " >co-pilot</h2>
 </div>
-<img src="./assets/images/svg/icon1.svg" alt="icon1" class="absolute top-[2%] right-[8%]">
-<img src="./assets/images/svg/phnIcon.svg" alt="phnIcon" class="absolute top-[25%] right-[5%] z-[1]">
-<img src="./assets/images/svg/checkIcon.svg" alt="checkIcon" class="absolute top-[30%]">
-<img src="./assets/images/svg/calenderIcon.svg" alt="calenderIcon" class="absolute top-[50%] left-[14%]">
-<img src="./assets/images/svg/musicIcon.svg" alt="musicIcon" class=" absolute bottom-[4%] right-[7%]">
+<img src="./assets/images/svg/icon1.svg" alt="icon1" class="absolute top-[2%] right-[8%] max-md:w-[37.11px] max-md:h-[37.11px] ">
+<img src="./assets/images/svg/phnIcon.svg" alt="phnIcon" class="absolute top-[25%] right-[5%] z-[1] max-md:w-[37.11px] max-md:h-[37.11px]">
+<img src="./assets/images/svg/checkIcon.svg" alt="checkIcon" class="absolute top-[30%] max-md:w-[37.11px] max-md:h-[37.11px]">
+<img src="./assets/images/svg/calenderIcon.svg" alt="calenderIcon" class="absolute top-[50%] left-[14%] max-md:w-[37.11px] max-md:h-[37.11px]">
+<img src="./assets/images/svg/musicIcon.svg" alt="musicIcon" class=" absolute bottom-[4%] right-[7%] max-md:w-[37.11px] max-md:h-[37.11px]">
 </div>
     </div>
 </div>
