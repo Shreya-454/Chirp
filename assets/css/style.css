@@ -2,7 +2,6 @@
 .border-gradient {
     position: relative;
     z-index: 1;
-    /* backdrop-filter: blur(8px); */
   }
   .border-gradient:after {
     content: "";
