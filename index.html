@@ -15,7 +15,8 @@
                     backgroundImage: {
                         'headbg': 'linear-gradient(180deg, #E8F6F9 0%, #FFFFFF 100%)',
                         'cardbg':'linear-gradient(180deg, #006E2C 0%, #005723 100%)',
-                        'white-gradient':'linear-gradient(112.83deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 110.84%)'
+                        'white-gradient':'linear-gradient(112.83deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 110.84%)',
+                        'footerbg':'linear-gradient(180deg, #FFF6E2 0%, #FFFFFF 100%)'
                     },
                     fontFamily: {
 'poppins':"'Poppins',sans-serif",
@@ -32,9 +33,9 @@
         <div class=" max-w-[1144px] mx-auto pt-[51px] max-md:pt-8 container px-3">
             <nav class=" flex justify-between">
                     <img src="./assets/images/svg/logo.svg" alt="logo" class="cursor-pointer max-md:w-[100px]">
-            <button class=" after:absolute after:h-full after:bg-[#006E2C] relative after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0 overflow-hidden z-[1] after:z-[-1] text-[#00434F] after:duration-300 duration-300 hover:text-white text-xl font-semibold h-[44px] flex gap-2 items-center bg-[#6ACD7A] py-2.5 pl-8  pr-5 rounded-full">
+            <button class="group after:absolute after:h-full after:bg-[#006E2C] relative uppercase after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0 overflow-hidden z-[1] after:z-[-1] text-[#00434F] after:duration-300 duration-300 hover:text-white text-xl font-semibold h-[44px] flex gap-2 items-center bg-[#6ACD7A] py-2.5 pl-8  pr-5 rounded-full">
                 Coming soon
-             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <svg class="group-hover:rotate-[90deg] duration-300" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22.5878 12.8019L15.4114 15.4114L12.8019 22.5878C12.741 22.752 12.6313 22.8935 12.4876 22.9935C12.3438 23.0935 12.1729 23.1471 11.9979 23.1471C11.8228 23.1471 11.6519 23.0935 11.5082 22.9935C11.3644 22.8935 11.2547 22.752 11.1938 22.5878L8.58866 15.4114L1.41217 12.8019C1.24804 12.741 1.10648 12.6313 1.00651 12.4876C0.906548 12.3438 0.852966 12.1729 0.852966 11.9979C0.852966 11.8228 0.906548 11.6519 1.00651 11.5082C1.10648 11.3644 1.24804 11.2547 1.41217 11.1938L8.58866 8.58866L11.1981 1.41217C11.259 1.24804 11.3687 1.10648 11.5125 1.00651C11.6562 0.906548 11.8271 0.852966 12.0022 0.852966C12.1772 0.852966 12.3481 0.906548 12.4919 1.00651C12.6356 1.10648 12.7453 1.24804 12.8062 1.41217L15.4156 8.58866L22.5921 11.1981C22.7547 11.2603 22.8945 11.3704 22.993 11.5139C23.0915 11.6574 23.144 11.8275 23.1435 12.0015C23.143 12.1755 23.0896 12.3453 22.9904 12.4883C22.8911 12.6312 22.7507 12.7406 22.5878 12.8019Z" fill="#E5F6EC"/>
                     <path d="M22.8816 10.3919L16.0803 7.91967L13.6081 1.11842C13.4863 0.790143 13.2669 0.507024 12.9794 0.307093C12.6919 0.107163 12.3502 0 12 0C11.6498 0 11.3081 0.107163 11.0206 0.307093C10.7331 0.507024 10.5137 0.790143 10.3919 1.11842L7.91967 7.91967L1.11842 10.3919C0.790143 10.5137 0.507024 10.7331 0.307093 11.0206C0.107163 11.3081 0 11.6498 0 12C0 12.3502 0.107163 12.6919 0.307093 12.9794C0.507024 13.2669 0.790143 13.4863 1.11842 13.6081L7.91967 16.0814L10.3919 22.8816C10.5137 23.2099 10.7331 23.493 11.0206 23.6929C11.3081 23.8928 11.6498 24 12 24C12.3502 24 12.6919 23.8928 12.9794 23.6929C13.2669 23.493 13.4863 23.2099 13.6081 22.8816L16.0814 16.0803L22.8816 13.6081C23.2099 13.4863 23.493 13.2669 23.6929 12.9794C23.8928 12.6919 24 12.3502 24 12C24 11.6498 23.8928 11.3081 23.6929 11.0206C23.493 10.7331 23.2099 10.5137 22.8816 10.3919ZM15.1176 14.6051C15 14.648 14.8931 14.7161 14.8046 14.8046C14.7161 14.8931 14.648 15 14.6051 15.1176L12 22.2812L9.39485 15.1176C9.35202 15 9.28394 14.8931 9.19541 14.8046C9.10688 14.7161 9.00004 14.648 8.8824 14.6051L1.71878 12L8.8824 9.39485C9.00004 9.35202 9.10688 9.28394 9.19541 9.19541C9.28394 9.10688 9.35202 9.00004 9.39485 8.8824L12 1.71878L14.6051 8.8824C14.648 9.00004 14.7161 9.10688 14.8046 9.19541C14.8931 9.28394 15 9.35202 15.1176 9.39485L22.2812 12L15.1176 14.6051Z" fill="#00434F"/>
                     </svg>
@@ -42,18 +43,18 @@
             </nav>
         </div>
         <div class=" flex-grow flex items-center">
-<div class="container max-w-[1144px] mx-auto px-3">
+<div class="container animate-section max-w-[1144px] mx-auto px-3">
     <div class=" flex items-end gap-16 max-sm:gap-8 ">
-        <h1 id="the" class=" text-[170px] font-bold font-phudu leading-[100%] text-[#00434F] max-lg:text-[120px] max-sm:text-[96px]">the</h1>
-        <p class=" font-poppins font-normal text-lg leading-[24px] max-w-[268.32px] text-[#494949] pb-4 max-sm:hidden">Supercharge your conversion rates and <span class=" font-semibold text-[#005F26]">save up to 34%</span> of your sales rep's time, by automating mundane tasks.</p>
+        <h1 id="the" class=" text-[170px] font-bold font-phudu leading-[100%] text-[#00434F] max-lg:text-[100px] box  max-sm:text-[96px] text-80">the</h1>
+        <p class=" font-poppins font-normal text-lg leading-[24px] max-w-[268.32px] text-[#494949] pb-4 max-sm:hidden box2">Supercharge your conversion rates and <span class=" font-semibold text-[#005F26]">save up to 34%</span> of your sales rep's time, by automating mundane tasks.</p>
         <img src="./assets/images/girlimg.png" alt="girlImg" class="max-w-[219px] max-sm:max-w-[127px] sm:hidden">
     </div>
-              <div class=" flex gap-8 items-end">
-                  <h1 id="salesAi" class=" text-[170px] max-lg:text-[120px] font-bold font-phudu leading-[100%] text-[#00434F] max-sm:text-[96px]">
+              <div class=" flex gap-7 items-center">
+                  <h1 id="salesAi" class=" text-80 text-[170px] max-lg:text-[100px] box3 font-bold font-phudu leading-[100%] text-[#00434F] max-sm:text-[96px]">
                 Sales
               </h1>
-              <img src="./assets/images/svg/Ai.svg" alt="ai" class="pb-4 max-lg:h-[100px] max-sm:h-[80px]">
-              <button class=" uppercase after:bg-[#00434F] after:absolute relative after:h-full after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0  overflow-hidden z-[1] after:z-[-1] duration-300 after:duration-300 group hover:text-white leading-[100%] text-[#00434F] font-phudu font-semibold text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer mb-4 max-sm:hidden">
+              <img src="./assets/images/svg/Ai.svg" alt="ai" class=" box4 h-70  max-lg:h-[76px] max-sm:pb-2.5 max-sm:h-[80px] md:pt-2.5 pt-1 max-sm:translate-y-[5px]">
+              <button class=" uppercase after:bg-[#00434F] after:absolute box3 relative after:h-full after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0  overflow-hidden z-[1] after:z-[-1] duration-300 after:duration-300 group hover:text-white leading-[100%] text-[#00434F] font-phudu font-semibold text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer mb-4 max-sm:hidden">
                 subscribe for more
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="24" width="24" height="24" rx="12" transform="rotate(90 24 0)" fill="#00434F" class="group-hover:fill-white duration-300"/>
@@ -61,9 +62,9 @@
                     </svg>                    
               </button>
             </div>
-                      <div class=" flex items-end gap-6 sm:-mt-12 lg:-mt-8">
-                        <img src="./assets/images/girlimg.png" alt="girlImg" class="max-w-[219px] lg:-translate-y-[14%] max-lg:max-w-[170px] max-sm:hidden">
-                          <h1 id="coPilot" class=" text-[170px] font-bold font-phudu leading-[100%] text-[#00434F] max-lg:text-[120px]  max-sm:text-[96px] lg:-translate-y-[10%]">
+                      <div class=" flex items-end gap-6 sm:-mt-[26px] lg:-mt-8">
+                        <img src="./assets/images/girlimg.png" alt="girlImg" class="max-w-[219px] max-lg:max-w-[127px] box2 lg:-translate-y-[14%] max-sm:hidden">
+                          <h1 class=" text-80 text-[170px] font-bold box font-phudu leading-[100%] text-[#00434F] max-lg:text-[100px]  max-sm:text-[96px] lg:-translate-y-[10%]">
                                   CO-PILOT</h1>
                       </div>
                       <p class=" font-poppins font-normal text-lg max-sm:text-base leading-[24px]  max-sm:leading-[22px] text-[#494949]  sm:hidden py-8 pr-16 ">Supercharge your conversion rates and <span class=" font-semibold text-[#005F26]">save up to 34%</span> of your sales rep's time, by automating mundane tasks.</p>
@@ -84,7 +85,7 @@
 
     <div class="flex-row flex flex-wrap -mx-3">
 <div class="lg:w-1/2 w-full px-3 flex justify-center max-lg:mb-7">
-<div class="w-full bg-[#E5F6EC] rounded-[32px] xl:px-[110px] max-md:py-12 max-lg:px-[110px] max-md:px-6 pt-[127px] pb-[138px] max-w-[676px] ">
+<div class="w-full bg-[#E5F6EC] rounded-[32px] xl:px-[110px] max-md:max-w-[450px] max-md:py-12 max-lg:px-[110px] max-md:px-6 pt-[127px] pb-[138px] max-w-[676px] ">
 <h3 class=" uppercase font-phudu text-5xl max-md:text-[32px] leading-[100%] text-center font-bold text-[#005F26] pb-10">
     subscribe for more
 </h3>
@@ -99,25 +100,25 @@
     </div>
 </form>
 <div class="flex justify-between">
-<p class=" text-sm font-poppins text-[#494949] leading-[143%] max-w-[292px] max-md:max-w-[184px]">Make your sales teams superhuman.Launching soon. Sign up for updates.</p>
+<p class=" text-sm font-poppins text-[#494949] leading-[143%] max-w-[292px] max-md:max-w-[184px] text-12">Make your sales teams superhuman. Launching soon. Sign up for updates.</p>
 <button class=" font-phudu text-[#00434F] text-xl leading-[100%] font-semibold text-center bg-[#FFCA4C] py-2.5 px-8 rounded-full">Submit</button>
 </div>
 </div>
     </div>
     <div class="lg:w-1/2 w-full px-3 flex justify-center">
-<div class="w-full h-full rounded-[32px] bg-cardbg pt-[39px] px-8 relative max-w-[676px] z-[1] pb-[45px] max-md:pb-[23px]" >
-<div class="bg-[#6DC8D9] max-w-[571px] p-[39px_50px_46px_55px] rounded-full -translate-x-[14%] max-md:p-[18px_0px_24px_0px] max-md:max-w-[333px] ">
-    <h2 class="uppercase text-[#E8F6F9] max-lg:text-[80px] max-md:text-5xl lg:text-5xl xl:text-[80px] leading-[100%] text-center font-phudu" >Soar quickly</h2>
+<div class="w-full h-full max-md:py-[22px] pr_0 max-md:pr-[23px] max-md:pl-[18px] rounded-[32px] bg-cardbg pt-[39px] px-8 relative max-md:max-w-[450px]  max-w-[676px] z-[1] pb-[45px] max-md:pb-[23px]" >
+<div class="bg-[#6DC8D9] max-w-[571px] p-[39px_50px_46px_55px] rounded-full -translate-x-[14%] max-md:p-[18px_0px_24px_0px] max-sm:w-[333px]  max-md:max-w-[333px]">
+    <h2 class="uppercase font-bold text-[#E8F6F9] max-lg:text-[80px] max-md:text-5xl lg:text-5xl xl:text-[80px] leading-[100%] text-center font-phudu" >Soar quickly</h2>
 </div>
 <img src="./assets/images/svg/shape1.svg" alt="shape" class="absolute right-0 bottom-[20%] z-[-1] max-md:w-[82px]">
 <div class=" w-full flex justify-end">
-<div class="bg-white-gradient backdrop-opacity-5 backdrop-blur-[100px] px-14 pt-10 pb-12 max-md:p-[19px_25px_23px_26px] rounded-full border-gradient after:rounded-full -translate-y-[15%]">
-    <h2 class="uppercase  lg:text-5xl max-md:text-5xl max-lg:text-[80px] xl:text-[80px] leading-[100%] text-center font-phudu text-[#E5F6EC]">with our</h2>
+<div class="bg-white-gradient !backdrop-blur px-14 pt-10 pb-12 max-md:p-[19px_25px_23px_26px] rounded-full border-gradient after:rounded-full -translate-y-[15%]">
+    <h2 class="uppercase font-bold  lg:text-5xl max-md:text-5xl max-lg:text-[80px] xl:text-[80px] leading-[100%] text-center font-phudu text-[#E5F6EC]">with our</h2>
 </div>
 </div>
-<div class=" flex bg-[#FFCA4C] max-w-[500px] max-md:max-w-[286px] max-md:p-[19px_29px_23px_32px] max-md:w-full lg:items-center p-[38px_55px_47px_50px] max-md:gap-1 max-md:items-center gap-3 lg:gap-8 rounded-full">
-<img src="./assets/images/svg/smallAi.svg" alt="ai" class="max-md:h-[35px] lg:h-[35px]">
-<h2 class="uppercase  lg:text-5xl  max-lg:text-[80px] xl:text-[80px] max-md:text-5xl leading-[100%] font-phudu font-bold text-[#FFF6E2] " >co-pilot</h2>
+<div class=" flex bg-[#FFCA4C] max-w-[500px] max-md:max-w-[286px] max-sm:w-[286px] max-md:p-[19px_29px_23px_32px] max-md:w-full lg:items-center p-[38px_55px_47px_50px] max-md:gap-1 items-center  lg:gap-4 rounded-full">
+<img src="./assets/images/svg/smallAi.svg" alt="ai" class="max-md:h-[35px] max-xl:h-[35px] md:h-[56px]">
+<h2 class="uppercase lg:text-5xl max-lg:text-[80px] xl:text-[80px] max-md:text-5xl leading-[100%] font-phudu font-bold text-[#FFF6E2] " >co-pilot</h2>
 </div>
 <img src="./assets/images/svg/icon1.svg" alt="icon1" class="absolute top-[2%] right-[8%] max-md:w-[37.11px] max-md:h-[37.11px] ">
 <img src="./assets/images/svg/phnIcon.svg" alt="phnIcon" class="absolute top-[25%] right-[5%] z-[1] max-md:w-[37.11px] max-md:h-[37.11px]">
@@ -128,13 +129,73 @@
     </div>
 </div>
         </div>
-
     </section>
-    <footer>
+    <footer class="bg-footerbg">
     <div class="container max-w-[1144px] mx-auto px-3">
 .
     </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script>
+        function handleScrollAnimations() {
+          const sections = document.querySelectorAll(".animate-section");
+  
+          sections.forEach((section) => {
+            const sectionTop = section.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            const scrollPosition = window.scrollY;
+            if (sectionTop < windowHeight * 0.8) {
+              // Reduce font size and opacity based on scroll position
+              const fontSize = 100 - (scrollPosition / (windowHeight * 0.8)) * 20;
+              const opacity = 1 - scrollPosition / (windowHeight * 0.8);
+              // Animate font size and opacity using GSAP
+              gsap.to(section, {
+                fontSize: `${fontSize}%,`,
+                opacity: opacity,
+                duration: 0.5,
+              });
+            } else {
+              // Restore original font size and opacity
+              gsap.to(section, { fontSize: "100%", opacity: 1, duration: 0.5 });
+            }
+          });
+        }
+  
+        window.addEventListener("scroll", handleScrollAnimations);
+      </script>
+      
+    <script>
+      gsap.from(".box", {
+        x: -250,
+        scale: 1,
+        duration: 0.9,
+        ease: "bounce",
+      });
+
+      gsap.from(".box2", {
+        x: -250,
+        scale: 1,
+        duration: 1.3,
+        scrub: 5,
+        ease: "bounce",
+      });
+      gsap.from(".box3", {
+        x: -250,
+        scale: 1,
+        duration: 0.9,
+        scrub: 5,
+        ease: "bounce",
+      });
+
+      gsap.from(".box4", {
+        x: -250,
+        scale: 1,
+        duration: 0.6,
+        scrub: 5,
+        ease: "bounce",
+      });
+    </script>
 </body>
 
 </html>

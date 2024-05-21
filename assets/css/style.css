@@ -2,6 +2,7 @@
 .border-gradient {
     position: relative;
     z-index: 1;
+    /* backdrop-filter: blur(8px); */
   }
   .border-gradient:after {
     content: "";
@@ -10,7 +11,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    border: 1px solid transparent;
+    border: 1.75px solid transparent;
     background:radial-gradient(116.39% 236.06% at 0% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) border-box;
     -webkit-mask:
       linear-gradient(#fff 0 0) padding-box,
@@ -20,4 +21,18 @@
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
     z-index: -1;
+  }
+  @media (max-width:400px) {
+    .text-80{
+      font-size: 80px !important;
+    }
+    .h-70{
+      height: 70px !important;
+    }
+    .pr_0{
+      padding-right: 0 !important;
+    }
+    .text-12{
+      font-size: 12px !important;
+    }
   }
