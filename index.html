@@ -59,13 +59,15 @@
           <!-- navbar -->
             <nav class=" flex justify-between">
                     <img src="./assets/images/svg/logo.svg" alt="logo" class="cursor-pointer max-md:w-[100px]">
-            <button class="group after:absolute after:h-full after:bg-[#006E2C] relative uppercase after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0 overflow-hidden z-[1] after:z-[-1] text-[#00434F] after:duration-300 duration-300 hover:text-white text-xl font-semibold h-[44px] flex gap-2 items-center bg-[#6ACD7A] py-2.5 pl-8  pr-5 rounded-full">
-                Coming soon
-             <svg class="group-hover:rotate-[90deg] duration-300" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M22.5878 12.8019L15.4114 15.4114L12.8019 22.5878C12.741 22.752 12.6313 22.8935 12.4876 22.9935C12.3438 23.0935 12.1729 23.1471 11.9979 23.1471C11.8228 23.1471 11.6519 23.0935 11.5082 22.9935C11.3644 22.8935 11.2547 22.752 11.1938 22.5878L8.58866 15.4114L1.41217 12.8019C1.24804 12.741 1.10648 12.6313 1.00651 12.4876C0.906548 12.3438 0.852966 12.1729 0.852966 11.9979C0.852966 11.8228 0.906548 11.6519 1.00651 11.5082C1.10648 11.3644 1.24804 11.2547 1.41217 11.1938L8.58866 8.58866L11.1981 1.41217C11.259 1.24804 11.3687 1.10648 11.5125 1.00651C11.6562 0.906548 11.8271 0.852966 12.0022 0.852966C12.1772 0.852966 12.3481 0.906548 12.4919 1.00651C12.6356 1.10648 12.7453 1.24804 12.8062 1.41217L15.4156 8.58866L22.5921 11.1981C22.7547 11.2603 22.8945 11.3704 22.993 11.5139C23.0915 11.6574 23.144 11.8275 23.1435 12.0015C23.143 12.1755 23.0896 12.3453 22.9904 12.4883C22.8911 12.6312 22.7507 12.7406 22.5878 12.8019Z" fill="#E5F6EC"/>
-                    <path d="M22.8816 10.3919L16.0803 7.91967L13.6081 1.11842C13.4863 0.790143 13.2669 0.507024 12.9794 0.307093C12.6919 0.107163 12.3502 0 12 0C11.6498 0 11.3081 0.107163 11.0206 0.307093C10.7331 0.507024 10.5137 0.790143 10.3919 1.11842L7.91967 7.91967L1.11842 10.3919C0.790143 10.5137 0.507024 10.7331 0.307093 11.0206C0.107163 11.3081 0 11.6498 0 12C0 12.3502 0.107163 12.6919 0.307093 12.9794C0.507024 13.2669 0.790143 13.4863 1.11842 13.6081L7.91967 16.0814L10.3919 22.8816C10.5137 23.2099 10.7331 23.493 11.0206 23.6929C11.3081 23.8928 11.6498 24 12 24C12.3502 24 12.6919 23.8928 12.9794 23.6929C13.2669 23.493 13.4863 23.2099 13.6081 22.8816L16.0814 16.0803L22.8816 13.6081C23.2099 13.4863 23.493 13.2669 23.6929 12.9794C23.8928 12.6919 24 12.3502 24 12C24 11.6498 23.8928 11.3081 23.6929 11.0206C23.493 10.7331 23.2099 10.5137 22.8816 10.3919ZM15.1176 14.6051C15 14.648 14.8931 14.7161 14.8046 14.8046C14.7161 14.8931 14.648 15 14.6051 15.1176L12 22.2812L9.39485 15.1176C9.35202 15 9.28394 14.8931 9.19541 14.8046C9.10688 14.7161 9.00004 14.648 8.8824 14.6051L1.71878 12L8.8824 9.39485C9.00004 9.35202 9.10688 9.28394 9.19541 9.19541C9.28394 9.10688 9.35202 9.00004 9.39485 8.8824L12 1.71878L14.6051 8.8824C14.648 9.00004 14.7161 9.10688 14.8046 9.19541C14.8931 9.28394 15 9.35202 15.1176 9.39485L22.2812 12L15.1176 14.6051Z" fill="#00434F"/>
-                    </svg>
-            </button>
+                    <button class=" group overflow-hidden flex item-center justify-between uppercase w-[200px] transition-all duration-300 ease-in-out text-[#00434F] relative text-xl font-semibold h-[44px] flex gap-2 items-center bg-[#6ACD7A] py-2.5 pl-8  pr-5 rounded-full relative">
+                      <span class="absolute group-hover:top-[15.4%] top-[-50%] left-[9%]  transition-all duration-300 ease-in-out"> Coming soon</span>
+                      <span class="group-hover:bottom-[-60%] bottom-[18%] left-[9%] absolute  transition-all duration-300 ease-in-out"> Coming soon</span>
+                      
+                    <svg class="group-hover:rotate-[90deg] absolute right-[6%] duration-300" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M22.5878 12.8019L15.4114 15.4114L12.8019 22.5878C12.741 22.752 12.6313 22.8935 12.4876 22.9935C12.3438 23.0935 12.1729 23.1471 11.9979 23.1471C11.8228 23.1471 11.6519 23.0935 11.5082 22.9935C11.3644 22.8935 11.2547 22.752 11.1938 22.5878L8.58866 15.4114L1.41217 12.8019C1.24804 12.741 1.10648 12.6313 1.00651 12.4876C0.906548 12.3438 0.852966 12.1729 0.852966 11.9979C0.852966 11.8228 0.906548 11.6519 1.00651 11.5082C1.10648 11.3644 1.24804 11.2547 1.41217 11.1938L8.58866 8.58866L11.1981 1.41217C11.259 1.24804 11.3687 1.10648 11.5125 1.00651C11.6562 0.906548 11.8271 0.852966 12.0022 0.852966C12.1772 0.852966 12.3481 0.906548 12.4919 1.00651C12.6356 1.10648 12.7453 1.24804 12.8062 1.41217L15.4156 8.58866L22.5921 11.1981C22.7547 11.2603 22.8945 11.3704 22.993 11.5139C23.0915 11.6574 23.144 11.8275 23.1435 12.0015C23.143 12.1755 23.0896 12.3453 22.9904 12.4883C22.8911 12.6312 22.7507 12.7406 22.5878 12.8019Z" fill="#E5F6EC"/>
+                           <path d="M22.8816 10.3919L16.0803 7.91967L13.6081 1.11842C13.4863 0.790143 13.2669 0.507024 12.9794 0.307093C12.6919 0.107163 12.3502 0 12 0C11.6498 0 11.3081 0.107163 11.0206 0.307093C10.7331 0.507024 10.5137 0.790143 10.3919 1.11842L7.91967 7.91967L1.11842 10.3919C0.790143 10.5137 0.507024 10.7331 0.307093 11.0206C0.107163 11.3081 0 11.6498 0 12C0 12.3502 0.107163 12.6919 0.307093 12.9794C0.507024 13.2669 0.790143 13.4863 1.11842 13.6081L7.91967 16.0814L10.3919 22.8816C10.5137 23.2099 10.7331 23.493 11.0206 23.6929C11.3081 23.8928 11.6498 24 12 24C12.3502 24 12.6919 23.8928 12.9794 23.6929C13.2669 23.493 13.4863 23.2099 13.6081 22.8816L16.0814 16.0803L22.8816 13.6081C23.2099 13.4863 23.493 13.2669 23.6929 12.9794C23.8928 12.6919 24 12.3502 24 12C24 11.6498 23.8928 11.3081 23.6929 11.0206C23.493 10.7331 23.2099 10.5137 22.8816 10.3919ZM15.1176 14.6051C15 14.648 14.8931 14.7161 14.8046 14.8046C14.7161 14.8931 14.648 15 14.6051 15.1176L12 22.2812L9.39485 15.1176C9.35202 15 9.28394 14.8931 9.19541 14.8046C9.10688 14.7161 9.00004 14.648 8.8824 14.6051L1.71878 12L8.8824 9.39485C9.00004 9.35202 9.10688 9.28394 9.19541 9.19541C9.28394 9.10688 9.35202 9.00004 9.39485 8.8824L12 1.71878L14.6051 8.8824C14.648 9.00004 14.7161 9.10688 14.8046 9.19541C14.8931 9.28394 15 9.35202 15.1176 9.39485L22.2812 12L15.1176 14.6051Z" fill="#00434F"/>
+                           </svg>
+                   </button>
             </nav>
         </div>
         <!-- hero-section -->
@@ -73,7 +75,7 @@
 <div class="container animate-section max-w-[1144px] mx-auto px-3 md:py-[120px] pt-[56px] pb-20">
     <div class=" flex items-end gap-16 max-sm:gap-8 ">
         <h1 id="the" class=" text-[170px] font-bold font-phudu leading-[100%] text-3 text-[#00434F] max-lg:text-[100px] max-sm:text-[96px] text-80">the</h1>
-        <p class=" font-poppins font-normal text-lg leading-[24px] text-1 max-w-[268.32px] text-[#494949] lg:pb-4 max-sm:hidden ">Supercharge your conversion rates and <span class=" font-semibold text-[#005F26]">save up to 34%</span> of your sales rep's time, by automating mundane tasks.</p>
+        <p class=" font-poppins font-normal text-lg leading-[24px] text-3 max-w-[268.32px] text-[#494949] lg:pb-4 max-sm:hidden ">Supercharge your conversion rates and <span class=" font-semibold text-[#005F26]">save up to 34%</span> of your sales rep's time, by automating mundane tasks.</p>
         <img src="./assets/images/girlimg.png" alt="girlImg" class="max-w-[219px] max-sm:max-w-[127px] sm:hidden">
     </div>
               <div class=" flex gap-7 items-end">
@@ -81,25 +83,46 @@
                 Sales
               </h1>
               <img src="./assets/images/svg/Ai.svg" alt="ai" class="  text-2 h-70  max-lg:h-[76px] max-sm:pb-2.5 max-sm:h-[80px] md:pb-2.5 pt-1 max-sm:translate-y-[5px]">
-              <button class=" uppercase after:bg-[#00434F] text-3 after:absolute  relative after:h-full after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0  overflow-hidden z-[1] after:z-[-1] duration-300 after:duration-300 group hover:text-white leading-[100%] text-[#00434F] font-phudu font-semibold text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer md:mb-2.5 max-sm:hidden">
-                subscribe for more
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="24" width="24" height="24" rx="12" transform="rotate(90 24 0)" fill="#00434F" class="group-hover:fill-white duration-300"/>
-                    <path d="M11.5433 18.9147C11.7955 19.1669 12.2045 19.1669 12.4567 18.9147L16.5665 14.8048C16.8187 14.5526 16.8187 14.1437 16.5665 13.8915C16.3143 13.6393 15.9054 13.6393 15.6532 13.8915L12 17.5448L8.34677 13.8915C8.09456 13.6393 7.68566 13.6393 7.43346 13.8915C7.18125 14.1437 7.18125 14.5526 7.43346 14.8048L11.5433 18.9147ZM11.3542 5.54193L11.3542 18.4581L12.6458 18.4581L12.6458 5.54193L11.3542 5.54193Z" fill="#FFCA4C" class="group-hover:fill-[#00434F] duration-300"/>
-                    </svg>                    
-              </button>
+              <button
+              class="uppercase text-2 relative w-[267px] h-[44px] flex item-center   overflow-hidden duration-300 after:duration-300 group hover:text-white leading-[100%] text-[#00434F] font-phudu font-semibold text-center flex bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer md:mb-2.5 max-sm:hidden" >
+            <span class="absolute group-hover:top-[32%] top-[-50%] left-[9%]  transition-all duration-300 ease-in-out">  subscribe for more</span>
+            <span class="group-hover:bottom-[-60%] bottom-[32%] left-[9%] absolute  transition-all duration-300 ease-in-out"> subscribe for more</span>
+
+              <svg class="absolute right-[20px]"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="24"
+                  width="24"
+                  height="24"
+                  rx="12"
+                  transform="rotate(90 24 0)"
+                  fill="#00434F"
+                  class="group-hover:fill-white duration-300"
+                />
+                <path
+                  d="M11.5433 18.9147C11.7955 19.1669 12.2045 19.1669 12.4567 18.9147L16.5665 14.8048C16.8187 14.5526 16.8187 14.1437 16.5665 13.8915C16.3143 13.6393 15.9054 13.6393 15.6532 13.8915L12 17.5448L8.34677 13.8915C8.09456 13.6393 7.68566 13.6393 7.43346 13.8915C7.18125 14.1437 7.18125 14.5526 7.43346 14.8048L11.5433 18.9147ZM11.3542 5.54193L11.3542 18.4581L12.6458 18.4581L12.6458 5.54193L11.3542 5.54193Z"
+                  fill="#FFCA4C"
+                  class="group-hover:fill-[#00434F] duration-300"
+                />
+              </svg>
+            </button>
             </div>
                       <div class=" flex items-end gap-6 sm:-mt-[26px] lg:-mt-8">
                         <img src="./assets/images/girlimg.png" alt="girlImg" class="max-w-[219px] text-2 max-lg:max-w-[127px] lg:-translate-y-[14%] max-sm:hidden">
-                          <h1 class=" text-80 text-[170px] font-bold  text-4 font-phudu leading-[100%] text-[#00434F] max-lg:text-[100px]  max-sm:text-[96px]" >
+                          <h1 class=" text-80 text-[170px] font-bold  text-4 font-phudu leading-[100%] text-[#00434F] max-lg:text-[100px]  max-sm:text-[96px] xl:translate-y-[-10%]" >
                                   CO-PILOT</h1>
                       </div>
                       <p class=" font-poppins font-normal text-lg max-sm:text-base leading-[24px]  max-sm:leading-[22px] text-[#494949]  sm:hidden py-8 max-sm:max-w-[321px] sm:pr-16 ">Supercharge your conversion rates and <span class=" font-semibold text-[#005F26]">save up to 34%</span> of your sales rep's time, by automating mundane tasks.</p>
-                      <button class=" uppercase text-xl leading-[100%] text-[#00434F] font-phudu font-semibold after:bg-[#00434F] after:absolute relative after:h-full after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0  overflow-hidden z-[1] after:z-[-1] duration-300 after:duration-300 group hover:text-white text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer sm:hidden">
+                      <button class=" uppercase text-xl leading-[100%] text-[#00434F] font-phudu font-semibold after:bg-[#00434F] after:absolute relative after:h-full after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0  overflow-hidden z-[1] after:z-[-1] duration-300 after:duration-300 group text-center flex  bg-[#FFCA4C] gap-4 items-center pr-5 py-2.5 pl-8 rounded-full cursor-pointer sm:hidden">
                         subscribe for more
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="24" width="24" height="24" rx="12" transform="rotate(90 24 0)" fill="#00434F" class=" group-hover:fill-white duration-300"/>
-                            <path d="M11.5433 18.9147C11.7955 19.1669 12.2045 19.1669 12.4567 18.9147L16.5665 14.8048C16.8187 14.5526 16.8187 14.1437 16.5665 13.8915C16.3143 13.6393 15.9054 13.6393 15.6532 13.8915L12 17.5448L8.34677 13.8915C8.09456 13.6393 7.68566 13.6393 7.43346 13.8915C7.18125 14.1437 7.18125 14.5526 7.43346 14.8048L11.5433 18.9147ZM11.3542 5.54193L11.3542 18.4581L12.6458 18.4581L12.6458 5.54193L11.3542 5.54193Z" fill="#FFCA4C" class=" group-hover:fill-[#00434F] duration-300"/>
+                            <rect x="24" width="24" height="24" rx="12" transform="rotate(90 24 0)" fill="#00434F"/>
+                            <path d="M11.5433 18.9147C11.7955 19.1669 12.2045 19.1669 12.4567 18.9147L16.5665 14.8048C16.8187 14.5526 16.8187 14.1437 16.5665 13.8915C16.3143 13.6393 15.9054 13.6393 15.6532 13.8915L12 17.5448L8.34677 13.8915C8.09456 13.6393 7.68566 13.6393 7.43346 13.8915C7.18125 14.1437 7.18125 14.5526 7.43346 14.8048L11.5433 18.9147ZM11.3542 5.54193L11.3542 18.4581L12.6458 18.4581L12.6458 5.54193L11.3542 5.54193Z" fill="#FFCA4C"/>
                             </svg>                    
                       </button>
 </div>
@@ -120,7 +143,14 @@
 </form>
 <div class="flex justify-between items-center">
 <p class=" text-sm font-poppins text-[#494949] leading-[143%] max-w-[292px] max-md:max-w-[184px] text-12">Make your sales teams superhuman. Launching soon. Sign up for updates.</p>
-<button class=" font-phudu text-[#00434F] text-xl leading-[100%] font-semibold text-center bg-[#FFCA4C] py-2.5  px-8 rounded-full after:bg-[#00434F] after:absolute relative after:h-full after:top-0 after:bottom-0 after:left-[100%] hover:after:left-0 after:right-0   overflow-hidden z-[1] after:z-[-1] duration-300 after:duration-300 group hover:text-white text-center">Submit</button>
+<button
+                  class="font-phudu text-[#00434F] text-xl leading-[100%] font-semibold text-center bg-[#FFCA4C] py-2.5 px-8 rounded-full w-[124px] h-[40px] relative overflow-hidden duration-300 after:duration-300 group text-center"
+                >
+                <span class="absolute group-hover:top-[22%] top-[-52%] left-[25%]  transition-all duration-300 ease-in-out">     Submit</span>
+                <span class="group-hover:bottom-[-60%] bottom-[28%] left-[25%] absolute  transition-all duration-300 ease-in-out">    Submit</span>
+
+
+                </button>
 </div>
 </div>
     </div>
@@ -137,7 +167,7 @@
 </div>
 <div id="tilt-button3" class=" overflow-hidden flex bg-[#FFCA4C] lg:max-w-[400px] md:max-w-[500px] xl:max-w-[500px] max-md:max-w-[286px] max-sm:w-[286px] max-md:p-[19px_0_23px] max-md:w-full lg:items-center lg:py-[30px] md:p-[38px_0_47px] xl:p-[38px_0_47px] max-md:gap-2 items-center gap-3 justify-center  lg:gap-4 rounded-full">
 <img src="./assets/images/svg/smallAi.svg" alt="ai" class="max-md:h-[40px] max-lg:h-[57px] h-[40px] xl:h-[64px] pt-1">
-<h2 class="uppercase lg:text-5xl max-lg:text-[80px] xl:text-[80px] max-md:text-5xl leading-[100%] font-phudu font-bold text-[#FFF6E2] " >co-pilot</h2>
+<h2 class="uppercase lg:text-5xl max-lg:text-[80px] xl:text-[80px] max-md:text-5xl leading-[100%] font-phudu font-bold text-[#FFF6E2]  " >co-pilot</h2>
 </div>
 <img src="./assets/images/svg/icon1.svg" alt="icon1" class="absolute top-[2%] right-[8%] max-md:w-[37.11px] max-md:h-[37.11px] ">
 <img src="./assets/images/svg/phnIcon.svg" alt="phnIcon" class="absolute top-[25%] right-[5%] z-[1] max-md:w-[37.11px] max-md:h-[37.11px]">
@@ -152,14 +182,14 @@
     <!-- footer -->
     <footer class="bg-footerbg">
     <div class="container max-w-[1144px] mx-auto px-3 py-[55px] max-md:pt-8 max-md:pb-10">
-<div class="flex flex-row flex-wrap -mx-3 items-center ">
+<div class="flex flex-row flex-wrap -mx-3 items-center  row">
 <div class="md:w-1/3 w-full px-3 max-md:flex justify-center max-md:mb-6 ">
 <div class="flex gap-[14px] items-center">
-  <img src="./assets/images/logo.png" alt="logo" class="cursor-pointer">
+  <img src="./assets/images/logo.png" alt="logo" class="cursor-pointer max-sm:w-14 max-sm:h-14">
   <p class=" text-sm font-poppins text-[#494949] leading-[140%] font-normal max-w-[288px]">Make your sales teams superhuman. Chirp. The Sales AI Co-Pilot.</p>
 </div>
 </div>
-<div class="md:w-1/3 w-full px-3 flex justify-center max-md:hidden">
+<div class="md:w-1/3 w-full px-3 flex justify-center max-sm:order-last">
   <p class=" text-sm font-poppins text-[#494949] leading-[140%] font-normal  text-center">© <span id="currentYear"></span> Chirp Labs. All rights reserved.</p>
 </div>
 <div class="md:w-1/3 w-full flex justify-end max-md:justify-center px-3 max-md:mb-6">
@@ -183,9 +213,6 @@
         </a>
 </div>
 </div>
-<div class="md:w-1/3 w-full px-3 flex justify-center md:hidden">
-  <p class=" text-sm font-poppins text-[#494949] leading-[140%] font-normal  text-center">© <span id="currentYear1"></span> Chirp Labs. All rights reserved.</p>  </div>
-</div>
     </div>
     </footer>
 <!------ jquery---- -->
@@ -201,9 +228,6 @@
   <!-- --year function---- -->
   <script>
    document.getElementById("currentYear").innerText =
-    new Date().getFullYear();
-
-    document.getElementById("currentYear1").innerText =
     new Date().getFullYear();
   </script>
 
@@ -249,7 +273,7 @@
 
     // add animations and labels to the timeline
     gsap.from(".text-3", { scale: 0.3, autoAlpha: 0, y: -500, duration: 1 });
-    tl.to(".text-3", { y: -70,  duration: 1 });
+    tl.to(".text-3", { y: -450,  duration: 1 });
 
     gsap.from(".text-1", { scale: 0.3, autoAlpha: 0, y: -500, duration: 1 });
     tl.to(".text-1", { y: -70,  duration: 1 });
