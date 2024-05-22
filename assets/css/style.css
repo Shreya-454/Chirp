@@ -34,4 +34,8 @@
     .text-12{
       font-size: 12px !important;
     }
+    .px_20{
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
   }
